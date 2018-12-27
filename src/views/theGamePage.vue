@@ -4,7 +4,7 @@
       Guess<br/>
       the rule!
     </h1>
-    <p v-if="this.$route.params.id !== 'freestyle'">Topics: {{theme.title}}</p>
+    <p v-if="this.$route.params.id !== 'freestyle'">Topic: {{theme.title}}</p>
     <p v-else>Freestyle</p>
     <p>
       You are the chosen one!<br/>
