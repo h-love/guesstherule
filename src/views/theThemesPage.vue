@@ -6,7 +6,7 @@
     </h1>
     <div class="flex-container align-middle flex-dir-column">
       <p class="u-noMarginTop">
-        Themes :
+        Topics:
       </p>
       <div
         v-for="(theme, index) in rulesData"

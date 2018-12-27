@@ -11,6 +11,12 @@
       "title" : "Christmas",
       "rule" : "Say a word that reminds you Christmas.",
       "words" : ["holly","present"]
+    },
+    {
+      "id": "themeJewelry",
+      "title" : "Jewelry",
+      "rule" : "Say a word that is related to the following topic: Jewelry",
+      "words" : ["necklace","earrings"]
     }
   ]
 }

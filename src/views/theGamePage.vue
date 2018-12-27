@@ -4,11 +4,11 @@
       Guess<br/>
       the rule!
     </h1>
-    <p v-if="this.$route.params.id !== 'freestyle'">Theme : {{theme.title}}</p>
+    <p v-if="this.$route.params.id !== 'freestyle'">Topics: {{theme.title}}</p>
     <p v-else>Freestyle</p>
     <p>
       You are the chosen one!<br/>
-      The rule you have to make your friends guess is :
+      The rule you have to make your friends guess is:
     </p>
     <p v-if="this.$route.params.id !== 'freestyle'" class="c-rule">{{rule}}</p>
     <input v-else class="c-rule c-rule--input" type="text" value="Click & write the rule here"/>
@@ -17,7 +17,7 @@
     </p>
     <rules />
     <router-link class="c-back" to="/themes">
-      Go back to themes
+      Go back to topics
     </router-link>
     <div
       class="c-popUp flex-container align-middle align-center"
