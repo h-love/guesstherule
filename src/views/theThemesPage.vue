@@ -32,7 +32,6 @@ import Rules from '@/components/Rules'
 
 export default {
   name: 'theGamePage',
-  components: {Rules},
   data () {
     return {
       rulesData: jsonData.rules,
