@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "id": "themeKitchen",
+      "title" : "Kitchen tools",
+      "rule" : "Say a tool that you can find in a kitchen.",
+      "words" : ["spoon","fork"]
+    },
+    {
+      "id": "themeChristmas",
+      "title" : "Christmas",
+      "rule" : "Say a word that reminds you Christmas.",
+      "words" : ["holly","present"]
+    }
+  ]
+}
